@@ -1,0 +1,11 @@
+group_label,spectral_class,class_rank,planet_count,percentage
+"All planets","O (Blue)",1,3,0.1
+"All planets","B (Blue-white)",2,15,0.3
+"All planets","A (White)",3,20,0.4
+"All planets","F (Yellow-white)",4,1030,18.1
+"All planets","G (Yellow)",5,2598,45.8
+"All planets","K (Orange)",6,1616,28.5
+"All planets","M (Red)",7,391,6.9
+"All planets","Brown dwarf",8,5,0.1
+Candidates,"K (Orange)",6,2,20.0
+Candidates,"M (Red)",7,8,80.0
