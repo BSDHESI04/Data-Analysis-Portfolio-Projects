@@ -3,8 +3,9 @@
 
 An end-to-end analysis of the NASA Exoplanet Archive: cleaning and validating the data in MySQL, exploring it with SQL, and presenting the results in a Power BI dashboard. The project looks at how exoplanets were discovered, what sizes they come in, which ones might sit in a habitable zone, and what kinds of stars host them.
 
-![NASA Exoplanets Visualization - Final.pdf](https://github.com/user-attachments/files/34099088/NASA.Exoplanets.Visualization.-.Final.pdf)
-<!-- TODO: save your final dashboard screenshot as images/dashboard.png -->
+
+<img width="1918" height="1080" alt="ExoplanetDashboard" src="https://github.com/user-attachments/assets/257dd49d-72a7-454f-b146-bf45a49fd623" />
+
 
 ## Summary of findings
 
@@ -82,9 +83,9 @@ Stars were classified from effective temperature, which is available for 5,678 p
 |---|---|
 | `exoplanet_analysis.sql` | Full MySQL script: validation, Kepler check and exploration, with comments |
 | `data/exoplanets_updated.csv` | Source data |
-| `data/*.csv` | Query results used by the dashboard (discoveries, size classes, evaluable planets, star classes, systems) |
-| `exoplanet_dashboard.pbix` | Power BI dashboard |
-| `images/dashboard.png` | Dashboard screenshot |
+| `Exported Data/*.csv` | Query results used by the dashboard (discoveries, size classes, evaluable planets, star classes, systems) |
+| `NASA Exoplanets Visualization - Final.pbix` | Power BI dashboard |
+| `ExoplanetDashboard.png` | Dashboard screenshot |
 
 <!-- TODO: adjust file names and folders to match your repository -->
 
@@ -97,12 +98,6 @@ Stars were classified from effective temperature, which is available for 5,678 p
 ## Skills demonstrated
 
 Data validation and cross-field checks, window functions (`SUM(COUNT(*)) OVER`), CTEs, conditional bucketing with `CASE`, regular expressions (`REGEXP_REPLACE`), `UNION ALL`, DAX measures (`DIVIDE`, `CALCULATE`, `ALLEXCEPT`), and dashboard design.
-
-## Possible next steps
-
-- Classify orbital periods and cross them with size to look for hot Jupiters.
-- Test how sensitive the habitable-zone list is to different insolation ranges.
-- Examine which discovery methods the Kepler-flagged planets belong to.
 
 ## Data source
 
