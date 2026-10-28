@@ -1,8 +1,9 @@
+
 # What 6,451 Exoplanets Tell Us: SQL and Power BI Analysis
 
 An end-to-end analysis of the NASA Exoplanet Archive: cleaning and validating the data in MySQL, exploring it with SQL, and presenting the results in a Power BI dashboard. The project looks at how exoplanets were discovered, what sizes they come in, which ones might sit in a habitable zone, and what kinds of stars host them.
 
-![Dashboard](images/dashboard.png)
+![NASA Exoplanets Visualization - Final.pdf](https://github.com/user-attachments/files/34099088/NASA.Exoplanets.Visualization.-.Final.pdf)
 <!-- TODO: save your final dashboard screenshot as images/dashboard.png -->
 
 ## Summary of findings
