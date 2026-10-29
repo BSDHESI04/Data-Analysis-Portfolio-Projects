@@ -1,0 +1,11 @@
+rank,feature,coefficient,odds_ratio,direction
+1,Max heart rate achieved,-2.402,0.091,Lowers risk
+2,Exercise-induced angina,0.992,2.698,Raises risk
+3,ST depression,0.745,2.105,Raises risk
+4,Age,-0.726,0.484,Lowers risk (see note)
+5,Family history,0.430,1.536,Raises risk
+6,Male sex,0.393,1.481,Raises risk
+7,Current smoker,0.359,1.432,Raises risk
+8,HDL cholesterol,-0.341,0.711,Lowers risk
+9,Total cholesterol,0.323,1.381,Raises risk
+10,BMI,0.315,1.370,Raises risk

@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1,cases_caught,cases_missed,false_alarms,cases_caught_label
+Logistic regression,0.915,0.89,0.81,0.85,48,11,6,48 of 59
+Random forest (default),0.895,0.87,0.76,0.81,45,14,7,45 of 59
+Random forest (tuned),0.900,0.90,0.75,0.81,44,15,5,44 of 59
